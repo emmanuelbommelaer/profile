@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,200;16..144,400;16..144,600&family=Calistoga&display=swap');
-@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@700&family=Varela&display=swap');@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
 
 body {
-  background: white;
-  background-image: linear-gradient(to right, #5910ec, rgb(40, 4, 79));
-  background-attachment: fixed;
-  color:rgb(185, 159, 209);
-  font-size: 16px;
+  background: linear-gradient(to top left, rgb(255, 255, 255) 5%, rgba(67, 74, 198, 0) 30%, rgb(21, 6, 122)), linear-gradient(to top right, rgb(0, 255, 55), rgba(255, 153, 150, 0), magenta) rgba(255, 153, 150, 1);  font-size: 16px;
   line-height:24px;
-  font-family: 'Montagu Slab';
+  font-family: 'Open Sans';
   text-align: center;
-}
-
-h1 {
-  font-size: 24px;
+  background-repeat: no-repeat;
+  height:100%;
   color:rgb(255, 255, 255);
 }
 
+h1 {
+  font-size: 32px;
+  font-family: 'Raleway';
+  letter-spacing: 0.12em;
+}
+
 h2 {
-  font-size: 20px;
-  color:rgb(210, 183, 234);
+  font-size: 24px;
+  font-family: 'Raleway';
 }
 
 a {
@@ -29,19 +28,15 @@ a {
   transition-duration: 0.2s;
 }
 
-a:hover {
-  color:#cde1d3
-}
-
 .img-circle {
   width: 100px;
   border-radius: 50%;
-  box-shadow: 0 0px 30px rgba(255, 255, 255, 0.2);
   margin: 16px auto;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
 }
 
 .container {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -54,9 +49,9 @@ a:hover {
 }
 
 .card:hover {
-  background: rgba(255, 255, 255, 0.4);
-}
-
+  background: rgba(255, 255, 255, 0.3);
+} 
+  
 .btn-rectangle {
   background: rgba(255, 255, 255, 0.5);
   padding: 8px;
@@ -67,9 +62,9 @@ a:hover {
   transition-duration: 0.2s;
 }
 
-/* .btn-rectangle:hover {
-  width: 50%;
-} */
+.btn-rectangle:hover {
+  background: rgba(6, 15, 91, 0.5);
+}
 
 .list-inline > li {
   display: inline-block;
