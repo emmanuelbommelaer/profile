@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@700&family=Varela&display=swap');@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:wght@700&family=Varela&display=swap');@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
 
 body {
   background: linear-gradient(to top left, rgb(255, 255, 255) 5%, rgba(67, 74, 198, 0) 30%, rgb(21, 6, 122)), linear-gradient(to top right, rgb(0, 255, 55), rgba(255, 153, 150, 0), magenta) rgba(255, 153, 150, 1);  font-size: 16px;
@@ -22,10 +22,15 @@ h2 {
 }
 
 a {
-  color:#331f41;
+  color:black;
   text-decoration: none;
   transition-property: color;
   transition-duration: 0.2s;
+  font-weight: 500;
+}
+
+a:hover {
+  color:white;
 }
 
 .img-circle {
@@ -42,7 +47,7 @@ a {
 
 .card {
   background: rgba(255, 255, 255, 0.2);
-  padding: 24px;
+  padding: 24px 40px;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   margin: 24px;
@@ -50,20 +55,20 @@ a {
 
 .card:hover {
   background: rgba(255, 255, 255, 0.3);
-} 
-  
+}
+
 .btn-rectangle {
   background: rgba(255, 255, 255, 0.5);
   padding: 8px;
   width: 120px;
   margin: 24px auto 16px;
   border-radius: 8px;
-  transition-property: width;
   transition-duration: 0.2s;
 }
 
 .btn-rectangle:hover {
-  background: rgba(6, 15, 91, 0.5);
+  background: rgba(6, 15, 91, 1);
+  color: white;
 }
 
 .list-inline > li {
